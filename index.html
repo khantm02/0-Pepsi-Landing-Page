@@ -1,0 +1,71 @@
+<!-- 
+ 1) Logo and navigation bar
+  -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <section class="sec">
+      <header class="header">
+        <a href="#"><img src="./images/logo.png" alt="logo" /></a>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">What's New</a></li>
+          <li><a href="#">Newsletter</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </header>
+      <div class="content">
+        <div class="textBox">
+          <h2>That's what<br /><span>I like</span></h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+            autem quam praesentium reprehenderit nihil quae, minima ratione
+            voluptates!
+          </p>
+          <a href="#">View All Products</a>
+        </div>
+        <div class="imgBox">
+          <img class="pepsi" src="./images/pepsi001.png" alt="pepsi-blue" />
+        </div>
+      </div>
+      <ul class="footer">
+        <li>
+          <img
+            src="./images/pepsi001.png"
+            alt="pepsi-blue"
+            onclick="imgSwitcher('./images/pepsi001.png'); changeBackgroundColor('#0062be')"
+          />
+        </li>
+        <li>
+          <img
+            src="./images/pepsi002.png"
+            alt="pepsi-white"
+            onclick="imgSwitcher('./images/pepsi002.png'); changeBackgroundColor('#777')"
+          />
+        </li>
+        <li>
+          <img
+            src="./images/pepsi003.png"
+            alt="pepsi-black"
+            onclick="imgSwitcher('./images/pepsi003.png'); changeBackgroundColor('#1e1e1e')"
+          />
+        </li>
+      </ul>
+      <ul class="socials">
+        <li><img src="./images/facebook.png" alt="facebook" /></li>
+        <li><img src="./images/instagram.png" alt="instagram" /></li>
+        <li><img src="./images/twitter.png" alt="twitter" /></li>
+      </ul>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
